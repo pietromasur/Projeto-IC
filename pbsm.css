@@ -1,0 +1,35 @@
+
+h2 {
+    color: darkorange;
+}   
+.right {
+    color: red;
+    float: right;
+    width: 400px;
+    border: 3px inset rgb(251, 255, 0);
+    padding: 10px;
+}
+.left {
+    color: red;
+    float: left;
+    width: 400px;
+    border:3px inset red;
+    padding: 10px;
+}
+body {
+    background-color: rgb(31, 31, 31);
+}
+img {
+    opacity: 0.2;
+}
+.animation {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', cursive, monospace ;
+    animation: mymove 100s infinite;
+    position: relative;
+}
+@keyframes mymove {
+    from {top: 100px;}
+    to {top: -1000px;}
+}
